@@ -16,14 +16,15 @@
 
     <div class="hero">
         <nav>
-            <img src="./img/logo1.png" class="logo">
-            <ul>
+            <img src="./img/logo2.2.png" class="logo">
+            <ul id="menuList">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="Projects.html">Projects</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">About Me</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="cv.html">My CV</a></li>
             </ul>
-            <a href="#" class="btn">Hire Me</a>
+            <<img src="./img/menu-removebg-preview.png" class="btn1" onclick="togglemenu()">
         </nav>
         <div class="info">
             <h1><span>Water Level Indicator using PCB</span></h1>
@@ -44,15 +45,15 @@
                 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Every components listed above are to be connected on the PCB. All components are of specified configuration.
                 Three LED’s of different colors require 3V DC light emitting diode. It require current of 20mA.
                 The installed buzzer require 5V current for proper functioning.
-                Three<br> resistors of 470R are used to limit the maximum base current.
+                Three resistors of 470R are used to limit the maximum base current.
                 Four resistors of 1KΩ are used for sensing whether the wire is in contact with the water or not.
                 Four PNP Transistors of model A1015 are used because it provide sensor current to the resistor which is connected with the wire, which is in contact with the water.
                 9V battery is used for providing voltage to the device to work properly.</p>
             <h1>➢ Schematic Diagram:</h1>
             <h1><br><br><br><br><br><br><br><br><br><br>➢ PCB Schematic:</h1>
             <h1><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>➢ Construction:</h1>
-            <p>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; The positive terminal of battery is connected with the emitter of every single transistor. Whereas the negative terminal of the battery is connected with the negative terminal of the buzzer and also with the negative terminal of the LED’s. Now the same wire will be poured in the water. All LED’s are separately connected with the 470R resistor is series. The second terminal of every resistor is connected with the collector<br> of every transistor. Similarly, the positive terminal of the buzzer is connected with the collector of transistor.
-                The base of every transistor is<br> connected with the resistor of 1KΩ resistance. At last the second terminal of the resistor is connected with the wire.</p>
+            <p>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; The positive terminal of battery is connected with the emitter of every single transistor. Whereas the negative terminal of the battery is connected with the negative terminal of the buzzer and also with the negative terminal of the LED’s. Now the same wire will be poured in the water. All LED’s are separately connected with the 470R resistor is series. The second terminal of every resistor is connected with the collector of every transistor. Similarly, the positive terminal of the buzzer is connected with the collector of transistor.
+                The base of every transistor is connected with the resistor of 1KΩ resistance. At last the second terminal of the resistor is connected with the wire.</p>
             <h1><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>➢ Working:</h1>
             <p>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; The water in the tank when crosses the different level of the tank where wires ate attached the LEDs would glow to determine the different level of water.
                 The buzzer will make noise when water reaches till the overflowing point.<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>Play the Video to see how our Project Works.<br><br><br><br><br><br><br><br><br>
@@ -94,11 +95,25 @@
                 <a href="https://www.linkedin.com/in/shariq-ijlal-tahir"><i class="fab fa-linkedin-in"></i></a>
                 <a href="https://github.com/Shariqijlal007"><i class="fab fa-github"></i></a>
 			<p><strong>Shariq Ijlal Tahir</strong></p>
+            <p>Website Template available at Github.</p>
 			<p>Copyright 2021</p>
             </div>  
 		</footer>
         
     </div>
-
+    <script>
+        var menuList = document.getElementById("menuList");
+        menuList.style.maxHeight = "0px";
+        function togglemenu(){
+            if(menuList.style.maxHeight == "0px")
+            {
+                menuList.style.maxHeight = "180px";
+            }
+            else
+            {
+                menuList.style.maxHeight = "0px";
+            }
+        }
+    </script>
 </body>
 </html>

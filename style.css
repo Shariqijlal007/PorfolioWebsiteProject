@@ -24,8 +24,11 @@ nav{
     justify-content: space-between;
 }
 .logo{
-    width: 15%;
+    margin-top: 40px;
+    width: 17%;
     cursor: pointer;
+    display: inline-block;
+    list-style: none;
 }
 nav ul li{
     display: inline-block;
@@ -54,6 +57,11 @@ nav ul li a:hover{
     color: #ff4321;
     border: 1px solid #ff4321;
 }
+.btn1{
+    width: 25px;
+    cursor: pointer;
+    display: none;
+}
 .info{
     margin-left: 8%;
     margin-right: 8%;
@@ -61,6 +69,10 @@ nav ul li a:hover{
 }
 .info h1{
     font-size: 40px;
+    color: #444242;
+}
+.info h2{
+    font-size: 38px;
     color: #444242;
 }
 .info h1 span{
@@ -76,6 +88,18 @@ nav ul li a:hover{
     margin-top: 10px;
     margin-bottom: 30px;
 }
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 3px;
+    text-align: left;
+    color: #606163;
+    line-height: 22px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
 .img-box{
     width: 45%;
     height: 80%;
@@ -118,7 +142,7 @@ nav ul li a:hover{
     width: 30%;
     height: 70%;
     position: absolute;
-    top: 790px; right: 150px;
+    top: 830px; right: 150px;
     bottom: 0;
     right: 730px;
     margin-right: 10%;
@@ -135,7 +159,7 @@ nav ul li a:hover{
     width: 30%;
     height: 70%;
     position: absolute;
-    top: 1450px; right: 150px;
+    top: 1480px; right: 150px;
     bottom: 0;
     right: 550px;
     margin-right: 10%;
@@ -203,7 +227,7 @@ nav ul li a:hover{
     width: 30%;
     height: 70%;
     position: absolute;
-    top: 4850px; right: 150px;
+    top: 4870px; right: 150px;
     bottom: 0;
     right: 230px;
     margin-right: 10%;
@@ -220,7 +244,7 @@ nav ul li a:hover{
     width: 30%;
     height: 70%;
     position: absolute;
-    top: 850px; right: 150px;
+    top: 900px; right: 150px;
     bottom: 0;
     right: 350px;
     margin-right: 10%;
@@ -237,7 +261,7 @@ nav ul li a:hover{
     width: 30%;
     height: 70%;
     position: absolute;
-    top: 1450px; right: 150px;
+    top: 1500px; right: 150px;
     bottom: 0;
     right: 500px;
     margin-right: 10%;
@@ -254,7 +278,7 @@ nav ul li a:hover{
     width: 30%;
     height: 70%;
     position: absolute;
-    top: 1090px; right: 150px;
+    top: 1135px; right: 150px;
     bottom: 0;
     right: 350px;
     margin-right: 10%;
@@ -271,7 +295,7 @@ nav ul li a:hover{
     width: 30%;
     height: 70%;
     position: absolute;
-    top: 2640px; right: 150px;
+    top: 2670px; right: 150px;
     bottom: 0;
     right: 600px;
     margin-right: 10%;
@@ -288,7 +312,7 @@ nav ul li a:hover{
     width: 30%;
     height: 70%;
     position: absolute;
-    top: 3220px; right: 150px;
+    top: 3260px; right: 150px;
     bottom: 0;
     right: 600px;
     margin-right: 10%;
@@ -305,7 +329,7 @@ nav ul li a:hover{
     width: 30%;
     height: 70%;
     position: absolute;
-    top: 3800px; right: 150px;
+    top: 3840px; right: 150px;
     bottom: 0;
     right: 600px;
     margin-right: 10%;
@@ -322,7 +346,7 @@ nav ul li a:hover{
     width: 30%;
     height: 70%;
     position: absolute;
-    top: 4340px; right: 150px;
+    top: 4370px; right: 150px;
     bottom: 0;
     right: 600px;
     margin-right: 10%;
@@ -339,7 +363,7 @@ nav ul li a:hover{
     width: 30%;
     height: 70%;
     position: absolute;
-    top: 5780px; right: 150px;
+    top: 5830px; right: 150px;
     bottom: 0;
     right: 600px;
     margin-right: 10%;
@@ -356,7 +380,7 @@ nav ul li a:hover{
     width: 30%;
     height: 70%;
     position: absolute;
-    top: 6365px; right: 150px;
+    top: 6410px; right: 150px;
     bottom: 0;
     right: 600px;
     margin-right: 10%;
@@ -373,7 +397,7 @@ nav ul li a:hover{
     width: 10%;
     height: 70%;
     position: absolute;
-    top: 7085px; right: 150px;
+    top: 7120px; right: 150px;
     bottom: 0;
     right: 500px;
     margin-right: 10%;
@@ -390,7 +414,7 @@ nav ul li a:hover{
     width: 10%;
     height: 70%;
     position: absolute;
-    top: 7785px; right: 150px;
+    top: 7810px; right: 150px;
     bottom: 0;
     right: 500px;
     margin-right: 10%;
@@ -407,7 +431,7 @@ nav ul li a:hover{
     width: 60%;
     height: 70%;
     position: absolute;
-    top: 8185px; right: 150px;
+    top: 8220px; right: 150px;
     bottom: 0;
     right: 450px;
     margin-right: 10%;
@@ -441,7 +465,7 @@ nav ul li a:hover{
     width: 30%;
     height: 70%;
     position: absolute;
-    top: 2300px; right: 150px;
+    top: 2400px; right: 150px;
     bottom: 0;
     right: 300px;
     margin-right: 10%;
@@ -458,7 +482,7 @@ nav ul li a:hover{
     width: 30%;
     height: 70%;
     position: absolute;
-    top: 2600px; right: 150px;
+    top: 2700px; right: 150px;
     bottom: 0;
     right: 300px;
     margin-right: 10%;
@@ -471,11 +495,32 @@ nav ul li a:hover{
     transform: translateX(-50%);
     transition: bottom 1s, left 1s;
 }
+.img-box1{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    top: 150px; right: 110px;
+    bottom: 8000;
+}
+.img-box1 img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+.img-box1:hover .back-img1{
+    bottom: 40px;
+}
+.img-box1:hover .man-img1{
+    left: 54%;
+}
 .img-box2{
     width: 45%;
     height: 80%;
     position: absolute;
-    top: 1000px; right: 150px;
+    top: 1010px; right: 150px;
     bottom: 8000;
 }
 .img-box2 img{
@@ -496,7 +541,7 @@ nav ul li a:hover{
     width: 45%;
     height: 80%;
     position: absolute;
-    top: 1830px; right: 40px;
+    top: 1860px; right: 40px;
     bottom: 8000;
     right: 100px;
 }
@@ -531,4 +576,471 @@ footer {
 	color: rgb(255, 255, 255);
 	text-align: center;
 	padding: 3em 0;
+}
+@media only screen and (max-width:700px){
+    .img-box{
+        flex-direction: column-reverse;
+        width: 45%;
+        height: 50%;
+        position: relative;
+        top: 0;
+        left: 100px;
+    }
+    .img-box img{
+        flex-direction: column-reverse;
+        height: 100%;
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+        transition: bottom 1s, left 1s;
+    }
+    nav ul{
+        width:100%;
+        background: #bb532a;
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 2;
+    }
+    nav ul li{
+        display:block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    nav ul li a{
+        color: #fff;
+    }
+    .btn1{
+        display: block;
+    }
+    #menuList{
+        overflow: hidden;
+        transition: 0.5s;
+    }
+    .img-box1{
+        flex-direction: column-reverse;
+        width: 45%;
+        height: 50%;
+        position: absolute;
+        top: 730px;
+        left: 100px;
+    }
+    .img-box1 img{
+        flex-direction: column-reverse;
+        height: 100%;
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+        transition: bottom 1s, left 1s;
+    }
+    .img-box2{
+        flex-direction: column-reverse;
+        width: 25%;
+        height: 50%;
+        position: absolute;
+        top: 1650px;
+        left: 130px;
+    }
+    .img-box2 img{
+        flex-direction: column-reverse;
+        height: 100%;
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+        transition: bottom 1s, left 1s;
+    }
+    .img-box3{
+        flex-direction: column-reverse;
+        width: 45%;
+        height: 50%;
+        position: absolute;
+        top: 2700px;
+        left: 100px;
+    }
+    .img-box3 img{
+        flex-direction: column-reverse;
+        height: 100%;
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+        transition: bottom 1s, left 1s;
+    }
+    .img-box5{
+        flex-direction: column-reverse;
+        width: 25%;
+        height: 25%;
+        position: absolute;
+        top: 1400px;
+        left: 140px;
+    }
+    .img-box5 img{
+        flex-direction: column-reverse;
+        height: 100%;
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+        transition: bottom 1s, left 1s;
+    }
+    .img-box6{
+        flex-direction: column-reverse;
+        width: 25%;
+        height: 35%;
+        position: absolute;
+        top: 2100px;
+        left: 145px;
+    }
+    .img-box6 img{
+        flex-direction: column-reverse;
+        height: 100%;
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+        transition: bottom 1s, left 1s;
+    }
+    .img-box4{
+        flex-direction: column-reverse;
+        width: 35%;
+        height: 40%;
+        position: absolute;
+        top: 2350px;
+        left: 125px;
+    }
+    .img-box4 img{
+        flex-direction: column-reverse;
+        height: 100%;
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+        transition: bottom 1s, left 1s;
+    }
+    .img-box7{
+        flex-direction: column-reverse;
+        width: 35%;
+        height: 35%;
+        position: absolute;
+        top: 4000px;
+        left: 120px;
+    }
+    .img-box7 img{
+        flex-direction: column-reverse;
+        height: 100%;
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+        transition: bottom 1s, left 1s;
+    }
+    .img-box10{
+        flex-direction: column-reverse;
+        width: 35%;
+        height: 45%;
+        position: absolute;
+        top: 6100px;
+        left: 120px;
+    }
+    .img-box10 img{
+        flex-direction: column-reverse;
+        height: 100%;
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+        transition: bottom 1s, left 1s;
+    }
+    .vid-box1{
+        flex-direction: column-reverse;
+        width: 50px;
+        height: 500px;
+        position: absolute;
+        top: 6600px;
+        left: 135px;
+    }
+    .vid-box1 video{
+        flex-direction: column-reverse;
+        height: 100%;
+        position: absolute;
+        left: 80%;
+        bottom: 0;
+        transform: translateX(-50%);
+        transition: bottom 1s, left 1s;
+    }
+    .img-box9{
+        flex-direction: column-reverse;
+        width: 15%;
+        height: 25%;
+        position: absolute;
+        top: 4800px;
+        left: 160px;
+    }
+    .img-box9 img{
+        flex-direction: column-reverse;
+        height: 100%;
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+        transition: bottom 1s, left 1s;
+    }
+    .img-box8{
+        flex-direction: column-reverse;
+        width: 35%;
+        height: 35%;
+        position: absolute;
+        top: 4400px;
+        left: 120px;
+    }
+    .img-box8 img{
+        flex-direction: column-reverse;
+        height: 100%;
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+        transition: bottom 1s, left 1s;
+    }
+    .img-box11{
+        flex-direction: column-reverse;
+        width: 20%;
+        height: 30%;
+        position: absolute;
+        top: 1900px;
+        left: 150px;
+    }
+    .img-box11 img{
+        flex-direction: column-reverse;
+        height: 100%;
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+        transition: bottom 1s, left 1s;
+    }
+    .img-box12{
+        flex-direction: column-reverse;
+        width: 20%;
+        height: 60%;
+        position: absolute;
+        top: 2200px;
+        left: 140px;
+    }
+    .img-box12 img{
+        flex-direction: column-reverse;
+        height: 100%;
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+        transition: bottom 1s, left 1s;
+    }
+    .vid-box3{
+        flex-direction: column-reverse;
+        width: 20%;
+        height: 55%;
+        position: absolute;
+        top: 4600px;
+        left: 120px;
+    }
+    .vid-box3 video{
+        flex-direction: column-reverse;
+        height: 70%;
+        position: absolute;
+        left: 80%;
+        bottom: 0;
+        transform: translateX(-50%);
+        transition: bottom 1s, left 1s;
+    }
+    .vid-box2{
+        flex-direction: column-reverse;
+        width: 10%;
+        height: 45%;
+        position: absolute;
+        top: 4350px;
+        left: 160px;
+    }
+    .vid-box2 video{
+        flex-direction: column-reverse;
+        height: 70%;
+        position: absolute;
+        left: 80%;
+        bottom: 0;
+        transform: translateX(-50%);
+        transition: bottom 1s, left 1s;
+    }
+    .img-box13{
+        flex-direction: column-reverse;
+        width: 35%;
+        height: 40%;
+        position: absolute;
+        top: 2800px;
+        left: 110px;
+    }
+    .img-box13 img{
+        flex-direction: column-reverse;
+        height: 100%;
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+        transition: bottom 1s, left 1s;
+    }
+    .img-box14{
+        flex-direction: column-reverse;
+        width: 10%;
+        height: 30%;
+        position: absolute;
+        top: 5200px;
+        left: 160px;
+    }
+    .img-box14 img{
+        flex-direction: column-reverse;
+        height: 100%;
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+        transition: bottom 1s, left 1s;
+    }
+    .img-box15{
+        flex-direction: column-reverse;
+        width: 20%;
+        height: 30%;
+        position: absolute;
+        top: 5800px;
+        left: 145px;
+    }
+    .img-box15 img{
+        flex-direction: column-reverse;
+        height: 100%;
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+        transition: bottom 1s, left 1s;
+    }
+    .img-box16{
+        flex-direction: column-reverse;
+        width: 20%;
+        height: 30%;
+        position: absolute;
+        top: 6400px;
+        left: 140px;
+    }
+    .img-box16 img{
+        flex-direction: column-reverse;
+        height: 100%;
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+        transition: bottom 1s, left 1s;
+    }
+    .img-box17{
+        flex-direction: column-reverse;
+        width: 20%;
+        height: 30%;
+        position: absolute;
+        top: 6800px;
+        left: 140px;
+    }
+    .img-box17 img{
+        flex-direction: column-reverse;
+        height: 100%;
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+        transition: bottom 1s, left 1s;
+    }
+    .img-box18{
+        flex-direction: column-reverse;
+        width: 25%;
+        height: 35%;
+        position: absolute;
+        top: 9600px;
+        left: 140px;
+    }
+    .img-box18 img{
+        flex-direction: column-reverse;
+        height: 100%;
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+        transition: bottom 1s, left 1s;
+    }
+    .img-box19{
+        flex-direction: column-reverse;
+        width: 20%;
+        height: 30%;
+        position: absolute;
+        top: 10300px;
+        left: 140px;
+    }
+    .img-box19 img{
+        flex-direction: column-reverse;
+        height: 100%;
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+        transition: bottom 1s, left 1s;
+    }
+    .img-box20{
+        flex-direction: column-reverse;
+        width: 20%;
+        height: 60%;
+        position: absolute;
+        top: 11000px;
+        left: 140px;
+    }
+    .img-box20 img{
+        flex-direction: column-reverse;
+        height: 100%;
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+        transition: bottom 1s, left 1s;
+    }
+    .img-box21{
+        flex-direction: column-reverse;
+        width: 20%;
+        height: 60%;
+        position: absolute;
+        top: 11650px;
+        left: 140px;
+    }
+    .img-box21 img{
+        flex-direction: column-reverse;
+        height: 100%;
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+        transition: bottom 1s, left 1s;
+    }
+    .img-box22{
+        flex-direction: column-reverse;
+        width: 18%;
+        height: 20%;
+        position: absolute;
+        top: 12250px;
+        left: 145px;
+    }
+    .img-box22 img{
+        flex-direction: column-reverse;
+        height: 100%;
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+        transition: bottom 1s, left 1s;
+    }
 }

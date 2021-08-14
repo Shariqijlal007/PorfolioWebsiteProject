@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="description" content="Page Description Here"/>
+    <meta http-equiv="Content-Type" content="text/html"; charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Services</title>
+    <!----CSS link----->
+    <link rel="stylesheet" href="style.css">
+    <!----Fontawesome CDN Link----->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+</head>
+<body>
+
+    <div class="hero">
+        <nav>
+            <img src="./img/logo2.2.png" class="logo">
+            <ul id="menuList">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Projects.html">Projects</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="cv.html">My CV</a></li>
+            </ul>
+            <<img src="./img/menu-removebg-preview.png" class="btn1" onclick="togglemenu()">
+        </nav>
+        <div class="info">
+            <h1><span>Services</span></h1>
+            <h1>I provide the following Sevices:</h1>
+            <p>1. Freelancing Copy Writer at <strong>UpWork</strong>. &nbsp;&nbsp;&nbsp;<em>(06/2021 - Present)</em>
+            </p>
+            <a href="https://www.upwork.com/o/profiles/users/~018650380aa792e0e1/" class="btn">Hire Me</a>
+            <br><br>
+            <p>2. Freelancing Article Writer at <strong>Freelancer</strong>. &nbsp;&nbsp;&nbsp;<em>(06/2021 - Present)</em></p>
+            <a href="https://www.freelancer.pk/u/shariqijlal007" class="btn">Hire Me</a>
+            <br><br>
+            <p>3. Freelancing Article Writer at <strong>Guru</strong>. &nbsp;&nbsp;&nbsp;<em>(06/2021 - Present)</em></p>
+            <a href="https://www.guru.com/freelancers/shariq-ijlal-tahir" class="btn">Hire Me</a>
+            <br><br>
+            <p>4. Freelancing English to Urdu Translator at <strong>Fiverr</strong>. &nbsp;&nbsp;&nbsp;<em>(05/2021 - Present)</em></p>
+            <a href="https://www.fiverr.com/share/Dw0d0A" class="btn">Hire Me</a>
+        </div>
+        
+        <br>
+        <footer>
+            <div class="social">
+                <a href="https://twitter.com/IjlalShariq"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/shariq-ijlal-tahir"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/Shariqijlal007"><i class="fab fa-github"></i></a>
+			<p><strong>Shariq Ijlal Tahir</strong></p>
+            <p>Website Template available at Github.</p>
+			<p>Copyright 2021</p>
+            </div>  
+		</footer>
+        
+    </div>
+    <script>
+        var menuList = document.getElementById("menuList");
+        menuList.style.maxHeight = "0px";
+        function togglemenu(){
+            if(menuList.style.maxHeight == "0px")
+            {
+                menuList.style.maxHeight = "180px";
+            }
+            else
+            {
+                menuList.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+</html>
